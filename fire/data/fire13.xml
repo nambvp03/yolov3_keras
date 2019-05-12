@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fire</folder>
+	<filename>fire13.jpg</filename>
+	<path>/home/dell/Development/PyCharm_workspace/keras-yolo3-master/fire/fire13.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>159</ymin>
+			<xmax>199</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+</annotation>
