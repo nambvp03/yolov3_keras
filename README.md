@@ -81,7 +81,7 @@ image_file_path box1 box2 ... boxN
 x_min,y_min,x_max,y_max,class_id
 ```
 
-> If you are using VOC dataset then their labeling format is different, you need to execute below command to get label file in required format.
+If you are using VOC dataset then their labeling format is different, you need to execute below command to get label file in required format.
 
 ```
 #update file phat in python code before running
@@ -97,7 +97,7 @@ python3 convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5
 python3 train.py
 ```
 
-At the end you can find trained model in logs/000/ folder. To run object detection use newly trained \*.h5 for detection.
+At the end you can find trained model in logs/000/ folder. To run object detection use newly trained \*.h5 for detection. You can find some test images and a video [here](https://drive.google.com/drive/folders/1vDBWh8z1AbuX74rk2D72ETheDwwzUawc?usp=sharing).
 
 ## Output
 
